@@ -3,7 +3,7 @@ kind: Service
 metadata: 
   name: svc-lE 
 spec:
-  type: External name
+  type: ExternalName
   selector:
     app: dummypod
   ports: 
