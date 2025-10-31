@@ -4,6 +4,7 @@ metadata:
   name: svc-en
 spec:
   type: ExternalName
+  externalname: www.youtube.com 
   selector:
     app: dummypod
   ports: 
